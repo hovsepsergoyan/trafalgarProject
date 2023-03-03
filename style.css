@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+.my-body{
+    background-color: #3b1d60;
+}
+header {
+    max-width: 1440px;
+    width: 100%;
+    margin: 40px auto;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: "mulish", sans-serif;
+    padding: 0 20px;
+}
+.my-ul{
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
